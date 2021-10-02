@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: `Liu Jung Ting (Heidi)`,
-  tagline: `This is Heidi's Personal Wiki.`,
-  url: 'https://your-docusaurus-test-site.com',
+  title: `前端新米`,
+  tagline: `海底修羅場｜日々進化中`,
+  url: 'https://github.com/heidiliu2020/docusaurus-wiki',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'heidiliu2020', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-wiki',   // Usually your repo name.
 
   presets: [
     [
@@ -42,7 +42,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ({
       hideableSidebar: false,
       navbar: {
-        title: `Heidi's Wiki`,
+        title: `前端新米｜日々進化中`,
         hideOnScroll: false,
         logo: {
           alt: 'My Site Logo',
@@ -67,16 +67,33 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dev Wiki',
             items: [
               {
                 label: 'Docs',
                 to: '/docs/intro',
               },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Dev Note',
+            items: [
+              {
+                label: 'Hexo Blog',
+                to: 'https://heidiliu2020.github.io/',
+              },
+              {
+                label: 'HackMD',
+                to: 'https://hackmd.io/@Heidi-Liu',
+              },
+            ],
+          },
+          {
+            title: 'More',
             items: [
               {
                 label: 'Medium',
@@ -85,23 +102,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'GitHub',
                 href: 'https://github.com/heidiliu2020',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Hexo Blog',
-                to: 'https://heidiliu2020.github.io/',
-              },
-              {
-                label: 'HackMD',
-                to: 'https://hackmd.io/@Heidi-Liu',
               },
             ],
           },
