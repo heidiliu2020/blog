@@ -16,32 +16,41 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Front-End',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <li>具備 Angular 大型專案開發經驗</li>
+        <li>透過 RxJS 撰寫非同步操作</li>
+        <li>熟悉 React.js / Styled Components</li>
+        <li>熟悉 Material / Bootstrap UI 框架</li>
+        <li>熟悉 CSS Flexbox 排版工具</li>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Work Flow & Others',
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <li>熟悉 Git 及版本控制流程</li>
+        <li>具備 HyBrid App 開發經驗</li>
+        <li>瞭解 SQL Injection / XSS/ CSRF 及如何防備</li>
+        <li>熟悉 RESTful API 規範</li>
+        <li>具備 AWS / Heroku / Netlify 部署經驗</li>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    image: '/img/undraw_docusaurus_react.svg',
+    title: 'Cat & Japaholic',
+    image: '/img/beer_ru.jpg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <li>家裡有養隻貓叫做<a href="https://www.instagram.com/beeru_ru/"> Beeru</a></li>
+        <li>透過自學通過 JLPT N1，還是個動漫宅</li>
+        <li>最喜歡的動畫是銀之匙，日劇是 Unnatural</li>
+        <li>曾赴日打工度假一年</li>
+        <li>曾為了看舞台劇實現東京一日特攻</li>
       </>
     ),
   },

@@ -4,13 +4,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: `前端新米`,
-  tagline: `海底修羅場｜日々進化中`,
+  title: `Liu Jung Ting (Heidi)`,
+  tagline: `喜歡貓，喜歡旅行。期許自己未來能實現赴日當工程師的夢想。`,
   url: 'https://github.com/heidiliu2020/docusaurus-wiki',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_avatar.ico',
   organizationName: 'heidiliu2020', // Usually your GitHub org/user name.
   projectName: 'docusaurus-wiki',   // Usually your repo name.
 
@@ -46,7 +46,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         hideOnScroll: false,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/avatar.jpeg',
         },
         items: [
           {
