@@ -17,7 +17,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Front-End',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    image: '/img/001.png',
     description: (
       <>
         <li>具備 Angular 大型專案開發經驗</li>
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Work Flow & Others',
-    image: '/img/undraw_docusaurus_tree.svg',
+    image: '/img/003.png',
     description: (
       <>
         <li>熟悉 Git 及版本控制流程</li>

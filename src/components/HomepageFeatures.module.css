@@ -12,5 +12,5 @@ li {
 .featureSvg {
   height: 200px;
   width: 200px;
-  border-radius: 8px;
+  border-radius: 1rem;
 }
